@@ -93,7 +93,28 @@ select LTRIM(CustomerName)from mobileshop;
 select RTRIM('xworkz_1     ') AS removespace;
 select RTRIM(CustomerName)from mobileshop;
 select LTRIM(RTRIM(CustomerName)) FROM mobileshop;
+commit;
 
 
 
 truncate table mobileshop;
+SELECT count(*)from mobileshop;
+select * from mobileshop;
+select count(CustomerName) from mobileshop;
+select sum(Price)from mobileshop;
+select sum(RAM)from  mobileshop;
+select max(Price)from mobileshop;
+select max(RAM)from  mobileshop;
+select min(Price)from mobileshop;
+select min(RAM)from  mobileshop;
+select avg(Price)from mobileshop;
+select avg(RAM)from  mobileshop;
+select distinct(price) from mobileshop;
+select distinct(RAM) from mobileshop;
+
+
+
+
+
+
+
